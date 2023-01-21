@@ -45,13 +45,9 @@ const App = () => {
       body: JSON.stringify(trip),
     })
 
-    const data = await res.json();
+    const data = await res.json();  
 
     setTrips([...trips, data])
-    // const id = Math.floor(Math.random() * 10000) + 1
-
-    // const newTrip = { id, ...trip }
-    // setTrips([...trips, newTrip])
   }
 
   //Delete trip

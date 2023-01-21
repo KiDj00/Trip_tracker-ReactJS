@@ -8,7 +8,7 @@ const About = () => {
                 at the Faculty of Organizational Sceiences(Universty of Belgrade).
             </h4>
             <br></br>
-            <h4>Project was built in 2023. by student Aleksa Djordjevic index 35/19</h4>
+            <h4>Project was built in 2023. by student Aleksa Djordjevic index 2019/0035</h4>
             <br></br>
             <h4>The vision of tihis app is that it will make trips much easier to plan one day</h4>
             <br></br>
