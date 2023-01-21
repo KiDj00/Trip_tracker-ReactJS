@@ -22,15 +22,19 @@ const AddTrip = ({ onAdd }) => {
         <form className='add-form' onSubmit={onSubmit}>
             <div className='form-conrol'>
                 <label>Trip</label>
+                <br></br>
                 <input type='text'
                     placeholder='Add Trip' value={text}
                     onChange={(e) => setText(e.target.value)} />
+                      <br></br>
             </div>
             <div className='form-conrol'>
                 <label>Day and Time</label>
+                <br></br>
                 <input type='text'
                     placeholder='Add Day and Time' value={day}
                     onChange={(e) => setDay(e.target.value)} />
+                      <br></br>
 
             </div>
             <div className='form-conrol from-control-check'>
